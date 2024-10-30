@@ -1,0 +1,34 @@
+
+.link-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.link-button .icon{
+    width: 32px;
+    height: 32px;
+    padding: 5px;
+    background-color: var(--primary-color);
+    border: solid 1px #fff;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link-button .icon .play-icon{
+    border: solid 7px #fff;
+    width: 0;
+    height: 0;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    margin-right: -7px;
+}
+
+.link-button .label{
+    margin-left: 10px;
+}
